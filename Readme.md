@@ -8,7 +8,7 @@ Veja aqui o layout do desafio [Neste Link](https://www.figma.com/design/Mv4mSxBH
 
 ## 🔗 Link do deploy 
 
-Veja o projeto no ar no Github Pages [Neste Link]
+Veja o projeto no ar na Vercel [Neste Link](https://desafio-challenge-portfolio-alura.vercel.app/)
 
 ## 💻 Demonstração
 
