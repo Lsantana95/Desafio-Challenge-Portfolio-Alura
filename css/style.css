@@ -1,0 +1,407 @@
+ @import url('https://fonts.cdnfonts.com/css/brank');
+
+:root{
+   --primary-color:#fafff9fa;
+   --background-color: #3c3b3b;
+   --color-red:#cd0f0f;
+   --color-link: #fafbfa;
+   --color-hover-links: #232425;
+   --color-hover-links-secondary: #727272;
+   --color-button: #3498db;
+   --color-button-hover: #2980b9; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Brank', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--background-color);
+}
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-red);
+    width: 100%;
+}
+
+.header figure {
+    margin-right: 20px;
+}
+
+div figure img{
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-left: 8px;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    opacity: 2;
+    font-size: 1.4rem;
+}
+
+.menu__list__item a {
+    margin-right: 35px;
+}
+
+.menu__list__item a:hover{
+    color: var(--color-hover-links);
+}
+
+/* Foto */
+figure img {
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin: 10px 10px;
+}
+
+.menu__title {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-left: 3%;
+}
+
+section p {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-left: 3%;
+}
+
+/* Sessão de Titulo */
+.title__container {
+    margin-left: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.title__bio{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.title__subsection{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+/* Icones */
+.title__network {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.title__network li a {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.title__network__item {
+    margin-right: 10px;
+}
+
+.title__network__item a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+.bx {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.bx:hover {
+    color: var(--color-hover-links);
+}
+
+/* Sobre Mim */
+.about {
+    background-color: var(--color-red);
+    padding: 40px;
+}
+
+.about__container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.about__paragraph {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding: 40px;
+}
+
+.skills__title{
+    margin-bottom: 18px;
+}
+
+.skills__line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.card_skills__box {
+    background-color: var(--color-red);
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card_skills__box:hover {
+    background-color: var(--color-hover-links-secondary);
+}
+
+.bx {
+    font-size: 1.8rem;
+    margin-bottom: 10px; 
+}
+
+/* Hobbies */
+.hobbies {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    background-color: var(--color-red);
+    padding: 40px 0; 
+}
+
+.hobbies__title{
+    margin-bottom: 18px;
+}
+
+.hobbies__line {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.hobbies__box {
+    width: 90%;
+    margin-left: 8%;
+    background-color: var(--background-color);
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.hobbies__box:hover {
+    background-color: var(--color-hover-links-secondary);
+}
+
+.bx {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Sessão de Cursos e Formações */
+.academic {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.academic__title{
+    margin-bottom: 18px;
+}
+
+.academic__courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.academic__courses__box {
+    background-color: var(--color-red);
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-left: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.academic__courses__box:hover {
+    background-color: var(--color-hover-links-secondary);
+}
+
+.academic__courses__list {
+    list-style: none;
+    padding: 20px;
+}
+
+.academic__courses__item__img img {
+    width: 35%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.academic__courses__item__title {
+    margin-top: 10px;
+}
+
+.academic__courses__item__subtitle {
+    margin-top: 5px;
+}
+
+/* Projetos */
+.experience {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    background-color: var(--color-red);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.experience__section__title {
+    margin-bottom: 18px;
+}
+
+.experiencie__box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+
+    background-color: var(--background-color);
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-left: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.experience__img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.experience__img:hover{
+   transform: scale(1.1);
+}
+
+.experience__title{
+    font-size: 1rem;
+}
+
+.experience__text {
+    margin-bottom: 15px;
+}
+
+.experience__repo, .experience__demo {
+    display: inline-block;
+}
+
+.experiencia__botao--repo, .experiencia__botao--demo {
+    background-color: var(--color-red);
+    border-radius: 36px;
+    border: 2px solid blue;
+    color: #000;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 10px;
+}
+
+.experiencia__botao--repo:hover, .experiencia__botao--demo:hover {
+    background-color: var(--color-hover-links);
+    color: var(--color-link);
+}
+
+/*Contato*/
+section.formcontato{
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding: 40px 0;   
+}
+
+.formcontato__subtext{
+    margin-bottom: 8px;
+}
+
+.formcontato__input, .formcontato__textarea {
+    font-size: 1rem;
+    padding: 12px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.formcontato__textarea {
+    resize: vertical;
+}
+
+.formcontato__botao {
+    font-size: 0.9rem;
+    padding: 12px 20px;
+    border: 2px solid blue;
+    border-radius: 36px;
+    background-color: var(--color-button); 
+    color: var(--primary-color);
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.formcontato__botao:hover {
+    background-color: var(--color-button-hover);
+}
+
+/*footeer*/
+footer{
+    background-color: var(--color-red);
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 40px;
+}
+
+.footer__rodape span{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    text-align: center;
+}
