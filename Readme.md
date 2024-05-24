@@ -6,9 +6,7 @@
 
 Veja aqui o layout do desafio [Neste Link](https://www.figma.com/design/Mv4mSxBHzB5caI7bW2tLv6/Challenge-Front-end-Portf%C3%B3lio?node-id=0-1&t=q8QJ5xtirBi3D2g5-0)
 
-## 🔗 Link do deploy 
 
-Veja o projeto no ar na Vercel [Neste Link](https://desafio-challenge-portfolio-alura.vercel.app/)
 
 ## 💻 Demonstração
 
